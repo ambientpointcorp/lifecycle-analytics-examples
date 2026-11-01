@@ -1,4 +1,4 @@
-# Generated from chapters/23-the-cost-of-observation.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/23-the-cost-of-observation.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: The Cost of Observation
 #
 # Run from the repository root:

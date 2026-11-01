@@ -1,4 +1,4 @@
-# Generated from chapters/07-from-dwell-variance-to-safety-stock.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/07-from-dwell-variance-to-safety-stock.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: From Dwell Variance to Safety Stock
 #
 # Run from the repository root:
@@ -175,8 +175,8 @@ sum_of_marginals <- sum(vapply(internal_stages, function(st)
   variance_reduction_value(vc_stock, st, reduction = 0.5,
                            unit_cost = 120)$annual_value, 0))
 
-# All of them at once, which is what a program halving internal dwell
-# variance would actually do.
+# All of them at once. A program halving internal dwell variance would
+# actually do this.
 z     <- qnorm(0.95)
 V     <- attr(vc_stock, "total")[["ltd_variance"]]
 V_int <- sum(vc_stock$variance[vc_stock$class != "external supply"])

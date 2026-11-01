@@ -1,4 +1,4 @@
-# Generated from chapters/21-evaluating-a-monitoring-policy.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/21-evaluating-a-monitoring-policy.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Evaluating a Monitoring Policy
 #
 # Run from the repository root:

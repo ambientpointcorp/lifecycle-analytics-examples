@@ -1,4 +1,4 @@
-# Generated from chapters/15-attention-capacity.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/15-attention-capacity.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Attention Capacity
 #
 # Run from the repository root:

@@ -1,4 +1,4 @@
-# Generated from chapters/20-multi-echelon-systems.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/20-multi-echelon-systems.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Multi-Echelon Systems
 #
 # Run from the repository root:

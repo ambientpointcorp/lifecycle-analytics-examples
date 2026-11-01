@@ -1,4 +1,4 @@
-# dwellr-examples
+# lifecycle-analytics-examples
 
 Worked examples of [`dwellr`](https://github.com/ambientpointcorp/dwellr), one
 script per chapter of *Lifecycle Monitoring Analytics: A toolkit for continuous
@@ -19,7 +19,6 @@ remotes::install_github("ambientpointcorp/dwellr")
 scripts/   one file per chapter and per appendix, generated from the manuscript
 recorded/  worked examples on data the package did not generate, hand-written
 R/         the plot theme and figure helper every script shares
-tools/     the extractor that generates scripts/ from the book
 out/       figures, regenerated rather than tracked
 data/      the one cached artifact the scripts share, if you choose to cache it
 ```
@@ -71,11 +70,12 @@ chunk to generate them from.
 
 ## The scripts are generated, not written
 
-`tools/extract.py` reads the manuscript's chapter sources and writes one script
-per chapter from the R chunks inside them.
+The extractor lives in the manuscript, beside the chapter sources it reads,
+and writes into a checkout of this repository. Run it from there:
 
 ```bash
-make extract BOOK=../lifecycle-analytics-book
+cd ../lifecycle-analytics-manuscript
+python3 assets/extract.py ../lifecycle-analytics-examples
 ```
 
 This is deliberate. A hand-written example drifts from the chapter it

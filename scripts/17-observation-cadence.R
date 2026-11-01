@@ -1,4 +1,4 @@
-# Generated from chapters/17-observation-cadence.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/17-observation-cadence.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Observation Cadence
 #
 # Run from the repository root:

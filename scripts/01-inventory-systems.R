@@ -1,4 +1,4 @@
-# Generated from chapters/01-inventory-systems.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/01-inventory-systems.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Inventory Systems
 #
 # Run from the repository root:

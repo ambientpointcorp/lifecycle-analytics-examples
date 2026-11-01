@@ -1,4 +1,4 @@
-# Generated from chapters/03-stochastic-models-and-service-levels.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/03-stochastic-models-and-service-levels.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Stochastic Models and Service Levels
 #
 # Run from the repository root:

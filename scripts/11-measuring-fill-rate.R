@@ -1,4 +1,4 @@
-# Generated from chapters/11-measuring-fill-rate.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/11-measuring-fill-rate.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Measuring Fill Rate
 #
 # Run from the repository root:

@@ -3,13 +3,14 @@
 # The scripts are generated rather than written, so a chapter's analysis and
 # the script that reproduces it cannot drift apart.
 
-BOOK ?= ../lifecycle-analytics-book
+BOOK ?= ../lifecycle-analytics-manuscript
 RSCRIPT ?= Rscript
 
 .PHONY: extract run clean list
 
 extract:
-	python3 tools/extract.py $(BOOK)
+	@echo 'The extractor moved to the manuscript. Run it from there:'; \
+	echo '  cd $(BOOK) && python3 assets/extract.py '$$(pwd); exit 1
 
 list:
 	@ls scripts/*.R recorded/*.R | sed 's|\.R$$||'

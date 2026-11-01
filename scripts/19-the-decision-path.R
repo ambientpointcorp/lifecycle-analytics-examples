@@ -1,4 +1,4 @@
-# Generated from chapters/19-the-decision-path.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/19-the-decision-path.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: The Decision Path
 #
 # Run from the repository root:

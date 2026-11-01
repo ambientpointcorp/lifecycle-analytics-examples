@@ -1,4 +1,4 @@
-# Generated from chapters/04-demand-forecasting.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/04-demand-forecasting.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Demand Forecasting
 #
 # Run from the repository root:

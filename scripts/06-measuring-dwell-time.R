@@ -1,4 +1,4 @@
-# Generated from chapters/06-measuring-dwell-time.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/06-measuring-dwell-time.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Measuring Dwell Time
 #
 # Run from the repository root:

@@ -1,4 +1,4 @@
-# Generated from chapters/02-deterministic-models.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/02-deterministic-models.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Deterministic Models
 #
 # Run from the repository root:

@@ -1,4 +1,4 @@
-# Generated from chapters/24-worked-case-a-business-to-business-distributor.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/24-worked-case-a-business-to-business-distributor.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Worked Case: A Business-to-Business Distributor
 #
 # Run from the repository root:

@@ -1,4 +1,4 @@
-# Generated from chapters/13-deadlines-and-date-fields.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/13-deadlines-and-date-fields.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Deadlines and Date Fields
 #
 # Run from the repository root:

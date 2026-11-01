@@ -1,4 +1,4 @@
-# Generated from chapters/18-severity-and-routing.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/18-severity-and-routing.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Severity and Routing
 #
 # Run from the repository root:

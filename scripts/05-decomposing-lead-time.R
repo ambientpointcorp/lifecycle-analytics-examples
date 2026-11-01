@@ -1,4 +1,4 @@
-# Generated from chapters/05-decomposing-lead-time.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/05-decomposing-lead-time.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Decomposing Lead Time
 #
 # Run from the repository root:

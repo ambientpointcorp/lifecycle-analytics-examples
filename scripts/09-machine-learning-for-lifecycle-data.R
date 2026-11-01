@@ -1,4 +1,4 @@
-# Generated from chapters/09-machine-learning-for-lifecycle-data.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/09-machine-learning-for-lifecycle-data.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Machine Learning for Lifecycle Data
 #
 # Run from the repository root:
@@ -42,7 +42,7 @@ md <- data.frame(
   dow      = as.integer(format(o$entered_at, "%u")),
   stringsAsFactors = FALSE)
 
-# as.numeric() because tapply returns a one-dimensional array, which some
+# as.numeric() because tapply returns a one-dimensional array. Some
 # modeling functions accept and others reject (Section 9.21).
 md$total    <- as.numeric(total[match(md$order_no, names(total))])
 md$shipped  <- o$stage == "shipped"
@@ -69,7 +69,7 @@ c(orders = nrow(o), labelled = nrow(md),
 ## ---- split -------------------------------------------------------
 # Temporal split, for the reason Section 9.12 gives. initial_time_split()
 # takes the first `prop` of the rows as training, so the frame has to be in
-# time order before it is called, which is the one way to misuse it.
+# time order before it is called. That is the one way to misuse it.
 md <- md[order(md$entered), ]
 split <- initial_time_split(md, prop = 0.70)
 train <- training(split)
@@ -364,7 +364,7 @@ cox_fit <- proportional_hazards() |>
       data = training(s_split))
 
 # Evaluated on 500 of the held-back rows. A survival Brier score builds a
-# predicted curve per row, which costs about twenty-three seconds at this size
+# predicted curve per row, costing about twenty-three seconds at this size
 # and exhausts memory on the full six thousand, so the subsample is stated
 # rather than hidden.
 set.seed(9)
@@ -414,7 +414,7 @@ cal_pred <- as_pred(cal_part)
 test_pred <- as_pred(test)
 
 # calibrate_probability() fits the map on the calibration slice and applies it
-# to the evaluation period, which is the separation this section insists on.
+# to the evaluation period. That is the separation this section insists on.
 isotonic <- calibrate_probability(cal_pred$.pred_breach,
                                   cal_part$breach, method = "isotonic")
 platt    <- calibrate_probability(cal_pred$.pred_breach,
@@ -525,7 +525,7 @@ final_wf <- workflow() |>
               set_mode("classification"))
 final_fit <- fit(final_wf, fit_part)
 
-# 3. calibrate on the held-back slice, which the model has not seen
+# 3. calibrate on the held-back slice the model has not seen
 p_cal <- predict(final_fit, cal_part, type = "prob")$.pred_breach
 cal_map <- as.stepfun(isoreg(p_cal, as.numeric(cal_part$breach)))
 

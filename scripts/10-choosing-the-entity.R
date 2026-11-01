@@ -1,4 +1,4 @@
-# Generated from chapters/10-choosing-the-entity.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/10-choosing-the-entity.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Choosing the Entity
 #
 # Run from the repository root:

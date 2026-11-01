@@ -1,4 +1,4 @@
-# Generated from chapters/22-records-and-reproducibility.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/22-records-and-reproducibility.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Records and Reproducibility
 #
 # Run from the repository root:

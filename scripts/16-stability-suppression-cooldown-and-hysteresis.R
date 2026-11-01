@@ -1,4 +1,4 @@
-# Generated from chapters/16-stability-suppression-cooldown-and-hysteresis.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/16-stability-suppression-cooldown-and-hysteresis.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Stability: Suppression, Cooldown, and Hysteresis
 #
 # Run from the repository root:

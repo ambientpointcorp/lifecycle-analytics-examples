@@ -1,4 +1,4 @@
-# Generated from chapters/12-baselines.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/12-baselines.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Baselines
 #
 # Run from the repository root:

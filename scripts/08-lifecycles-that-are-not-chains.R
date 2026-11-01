@@ -1,4 +1,4 @@
-# Generated from chapters/08-lifecycles-that-are-not-chains.qmd by tools/extract.py -- do not edit by hand.
+# Generated from chapters/08-lifecycles-that-are-not-chains.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Lifecycles That Are Not Chains
 #
 # Run from the repository root:
