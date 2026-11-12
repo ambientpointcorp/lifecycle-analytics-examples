@@ -171,3 +171,20 @@ rule_grammar()$cannot_express
 c(negation = rule_compile("not stage in shipped", fields)$errors[1],
   arithmetic = rule_compile("due_date - 2 < 0",
                             c(due_date = "numeric"))$errors[1])
+
+## ---- assumption-register -----------------------------------------
+register <- data.frame(
+  quantity = c("look cost", "miss cost", "review capacity",
+               "seasonal term"),
+  value_in_force = c("$12 loaded", "$180", "9 items a day", "none"),
+  basis = c("ten-minute review at a loaded rate",
+            "retention estimate, one assumed churn rate",
+            "stated availability, not observed",
+            "no history to estimate one"),
+  settled_by = c("time study on a sample of reviews",
+                 "expediting ledger plus a churn analysis",
+                 "disposition timestamps from the queue",
+                 "four quarters of capture"),
+  stringsAsFactors = FALSE)
+
+register[, c("quantity", "value_in_force", "settled_by")]
