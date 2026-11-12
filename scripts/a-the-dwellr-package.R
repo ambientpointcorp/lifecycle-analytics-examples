@@ -1,8 +1,8 @@
-# Generated from chapters/e-the-dwellr-package.qmd by assets/extract.py -- do not edit by hand.
+# Generated from chapters/a-the-dwellr-package.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: The `dwellr` package
 #
 # Run from the repository root:
-#   Rscript scripts/e-the-dwellr-package.R
+#   Rscript scripts/a-the-dwellr-package.R
 
 library(dwellr)
 library(ggplot2)

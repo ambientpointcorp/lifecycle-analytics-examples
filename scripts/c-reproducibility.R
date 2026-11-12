@@ -1,8 +1,8 @@
-# Generated from chapters/g-reproducibility.qmd by assets/extract.py -- do not edit by hand.
+# Generated from chapters/c-reproducibility.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: Reproducibility
 #
 # Run from the repository root:
-#   Rscript scripts/g-reproducibility.R
+#   Rscript scripts/c-reproducibility.R
 
 library(dwellr)
 library(ggplot2)

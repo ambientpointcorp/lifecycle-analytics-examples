@@ -1,8 +1,8 @@
-# Generated from chapters/f-the-lifecycle-analytics-examples-repository.qmd by assets/extract.py -- do not edit by hand.
+# Generated from chapters/b-the-lifecycle-analytics-examples-repository.qmd by assets/extract.py -- do not edit by hand.
 # Chapter: The `lifecycle-analytics-examples` repository
 #
 # Run from the repository root:
-#   Rscript scripts/f-the-lifecycle-analytics-examples-repository.R
+#   Rscript scripts/b-the-lifecycle-analytics-examples-repository.R
 
 library(dwellr)
 library(ggplot2)
