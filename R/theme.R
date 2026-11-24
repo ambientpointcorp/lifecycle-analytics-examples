@@ -1,6 +1,6 @@
 # The plot theme every script shares, so that a figure looks the same whichever
-# script drew it. Kept here rather than repeated per script for the reason
-# Section 22.7 gives about one implementation and several callers.
+# script drew it. Kept here rather than repeated per script, so that one
+# implementation serves several callers, as Section 22.7 describes.
 
 library(ggplot2)
 

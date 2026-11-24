@@ -19,7 +19,7 @@ list:
 # echelon searches and Chapter 9's model fits dominate the total.
 #
 # recorded/ is included because it is held to the same standard as the
-# generated scripts: it is an example only while it runs.
+# generated scripts: it has to run to serve as an example.
 run:
 	@fail=0; for s in scripts/*.R recorded/*.R; do \
 	  printf '%-56s' "$$s"; \

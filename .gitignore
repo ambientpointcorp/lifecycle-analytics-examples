@@ -1,4 +1,5 @@
-# Figures and cached data are regenerated, not tracked. Rplots.pdf is the file
+# Figures and cached data are regenerated rather than tracked. Rplots.pdf is
+# the file
 # R opens when a base-graphics call runs with no device set; it was committed
 # once by accident.
 out/

@@ -5,8 +5,8 @@ script per chapter of *Lifecycle Monitoring Analytics: A toolkit for continuous
 supply chain operations*, which is the book that works through the package's
 methods.
 
-Install the package first. Everything here calls it and nothing here duplicates
-it.
+Install the package first. Every script here calls it, and none of them
+duplicates it.
 
 ```r
 # install.packages("remotes")
@@ -43,9 +43,9 @@ echelon searches dominate the total.
 
 Every script in `scripts/` starts from `simulate_lifecycles()`, so every one of
 them measures a corpus whose stages are the book's own: `received`, `released`,
-`shipped`. An operation being measured for real has its own stage names and its
-own idea of which of them are endings, and the package reads both out of a
-`stage_spec()` rather than assuming them.
+`shipped`. An operation measured for real has its own stage names and its own
+set of endings, and the package reads both from a `stage_spec()` rather than
+assuming them.
 
 `recorded/` shows that path end to end on a freight lifecycle that shares no
 stage name with the book's: declaring the stage set, building a population from
@@ -59,7 +59,7 @@ Rscript recorded/measuring-a-recorded-log.R
 
 It closes by measuring the same population twice, once against its own
 specification and once against the book's, because the failure it guards
-against is silent rather than loud: a stage set that does not declare
+against raises no error: a stage set that does not declare
 `departed` as an ending reads every departure as a wait that never finished,
 and the stage where the work completes becomes the worst-performing stage in
 the operation.
@@ -68,7 +68,7 @@ These files are hand-written, which is the one exception to the rule below.
 They illustrate the package rather than a chapter, so there is no manuscript
 chunk to generate them from.
 
-## The scripts are generated, not written
+## The scripts are generated
 
 The extractor lives in the manuscript, beside the chapter sources it reads,
 and writes into a checkout of this repository. Run it from there:
@@ -78,10 +78,10 @@ cd ../lifecycle-analytics-manuscript
 python3 assets/extract.py ../lifecycle-analytics-examples
 ```
 
-This is deliberate. A hand-written example drifts from the chapter it
-illustrates and nobody notices until a number disagrees with the page. A
-generated one cannot drift, because the chapter is its only source. Do not edit
-anything under `scripts/` directly — the next extraction will overwrite it.
+A hand-written example drifts from the chapter it illustrates, and the drift
+surfaces only when a number disagrees with the page. A generated one cannot
+drift, because the chapter is its only source. Do not edit anything under
+`scripts/` directly: the next extraction overwrites it.
 
 The manuscript repository is private until publication, so `make extract`
 works only for someone with a checkout of it. The generated scripts are
@@ -115,4 +115,4 @@ Appendix F of the book works a two-order example end to end.
 ## License
 
 MIT. See [LICENSE](LICENSE). The book itself is copyrighted separately; the
-code is a tool and is meant to be used.
+code here is covered by the MIT license.
